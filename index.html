@@ -6,12 +6,14 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css" charset="utf-8"/>
+    <link rel="stylesheet" href="https://jolianemock.vercel.app/css/fonts/stylesheet.css" type="text/css" charset="utf-8"/>
     <style type="text/css">
         @import url('https://fonts.googleapis.com/css?family=Cormorant&display=swap');
         @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
         
-       
+        body{
+            background:#fff;
+        }
         h2{
             font-family: 'Cormorant', sans-serif;
             font-weight: 400;
@@ -125,58 +127,40 @@
         .section-1-right-content{
             margin-top:175px;
         }
-        #navbarNavDropdown{
+        /* #navbarNavDropdown{
             position: absolute;
             width: 100%;
             left: 0px;
             top:0px;
           
-        }
+        } */
         .player-content-img{
             position:absolute;
         }
         .player-content-img > img{
             width:720px;                
         }
+        .nav-pills .nav-link{
+            color:#000000a6;
+        }
     </style>
 </head>
   <body>
-    <header class="navbar navbar-expand-lg">
-        <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
-        <div class="container mt-2 mb-2">
-          <a class="navbar-brand" href="#"><img src="https://jolianemock.vercel.app/images/logo.png" style="width:220px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav custom-font-brandon-normal nav-pills">
-              <li class="nav-item p-3">
-                <a class="nav-link custom-font-brandon-black" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item p-3">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item p-3">
-                <a class="nav-link" href="#">Service</a>
-              </li>
-              <li class="nav-item p-3">
-                <a class="nav-link active" href="#">Contact Us</a>
-              </li>
-              <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li> -->
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+
+ 
+   <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      <span class="fs-4"><img src="https://jolianemock.vercel.app/images/logo.png" style="width:220px"></span>
+    </a>
+
+    <ul class="nav nav-pills custom-font-brandon-normal" >
+      <li class="nav-item custom-font-brandon-black"><a href="#" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
+      <li class="nav-item "><a href="#" class="nav-link active" aria-current="page">Contact Us</a></li>
+    </ul>
+  </header>
     <main role="main" class="container-fluid">
         <div class="container-fluid" style="background-repeat: no-repeat;background-size: contain;background-image: url('https://jolianemock.vercel.app/images/section1/background-joliane.PNG')">
             <div class="row">
@@ -206,7 +190,7 @@
             </div>
         </div>
         
-            <section id="section2_content" class="container-fluid text-center" style=" background-repeat: no-repeat;background-size: cover;background-image: url('images/section2/background-section2.png')">
+            <section id="section2_content" class="container-fluid text-center" style=" background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianemock.vercel.app/images/section2/background-section2.png')">
          
                 <div class="container">
                       <div class="row justify-content-md-center mt-5">
@@ -272,7 +256,7 @@
 
               
             </section>
-            <section class="container-fluid joliane-experienced" style=" background-repeat: no-repeat;background-size: cover;background-image: url('images/section3/section3-background.png')">
+            <section class="container-fluid joliane-experienced" style=" background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianemock.vercel.app/images/section3/section3-background.png')">
                 <div class="row">
                     <div class="col-md-4">
                         <img class="joliane-experience-img" src="https://jolianemock.vercel.app/images/section3/background-joliane-experience.png" />
@@ -309,7 +293,7 @@
                     </div>
                 </div>
             </section>
-            <section class="container-fluid" style=" background-repeat: no-repeat;background-size: cover;background-image: url('images/section4/section4-background.png')">
+            <section class="container-fluid" style=" background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianemock.vercel.app/images/section4/section4-background.png')">
                 <div class="container">
                     <div class="row mt-5">
                         <div class="col-md-4">
@@ -359,7 +343,7 @@
                     </div>
                 </div>
             </section>
-            <section class="container-fluid section-5" style=" background-repeat: no-repeat;background-size: cover;background-image: url('images/section5/section5-background.png')">
+            <section class="container-fluid section-5" style=" background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianemock.vercel.app/images/section5/section5-background.png')">
                 <div class="container">
                     <div class="row mt-5 text-start">
                         <div class="col-md-8 mt-5">
@@ -384,7 +368,7 @@
                     
                 </div>
             </section>
-            <section class="container-fluid  section-6" style="margin-top:100px; background-repeat: no-repeat;background-size: cover;background-image: url('images/section6/section6-background.png')">
+            <section class="container-fluid  section-6" style="margin-top:100px; background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianemock.vercel.app/images/section6/section6-background.png')">
                 <div class="container mt-5">
                     <div class="row justify-content-md-center mt-5">
                       <div class="col-md-auto mt-5 text-center mt-5">
@@ -462,7 +446,7 @@
                     </div>
               </div>
             </section>
-            <section class="container-fluid  section-7" style="margin-top:100px; background-repeat: no-repeat;background-size: cover;background-image: url('images/section7/section7-background.png')">
+            <section class="container-fluid  section-7" style="margin-top:100px; background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianemock.vercel.app/images/section7/section7-background.png')">
                 <div class="container mt-5">
                     <div class="row justify-content-md-center mt-5">
                       <div class="col-md-auto mt-5 text-center mt-5">
@@ -498,7 +482,7 @@
                       </div>
               </div>
             </section>
-            <section class="container-fluid  section-7" style="background-repeat: no-repeat;background-size: cover;background-image: url('images/section8/section8-background.png')">
+            <section class="container-fluid  section-7" style="background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianemock.vercel.app/images/section8/section8-background.png')">
                 <div class="container">
                     <div class="row justify-content-md-start mt-5">
                       <div class="col-md-4 text-start mt-5 p-5" style="background: #142050;color: #fff;">
