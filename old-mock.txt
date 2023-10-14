@@ -5,11 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <link rel="stylesheet" href="https://jolianemock.vercel.app/css/fonts/stylesheet.css" type="text/css" charset="utf-8"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style type="text/css">
         @import url('https://fonts.googleapis.com/css?family=Cormorant&display=swap');
         @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
@@ -18,44 +15,41 @@
             background:#fff!important;
         }
         h2{
-            font-family: 'Cormorant', sans-serif!important;
-            font-weight: 400!important;
-            font-style: normal!important;
-            font-size: 40px!important;
-            line-height: 1.15!important;
-            color:#142050!important;
+            font-family: 'Cormorant', sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 40px;
+            line-height: 1.15;
+            color:#142050;
         }
         h3 {
-            font-family: 'Cormorant', sans-serif!important;
+            font-family: 'Cormorant', sans-serif;
             font-weight: 400;
             font-style: italic;
             font-size: 30px;
             line-height: 1;
             color: #d5ad6b;
             -webkit-font-smoothing: antialiased;
-            text-transform: uppercase;
         }
         
         .card-title{
-            font-family: 'brandon_grotesqueblack'!important;
+            font-family: 'brandon_grotesqueblack';
             font-weight:normal;
             font-style:normal;
         }
         p{
-            font-family: 'brandon_grotesquelight'!important;
+            font-family: 'brandon_grotesquelight';
             font-weight:normal;
             font-style:normal;
-            font-size:19px;
         }
         .custom-font-cormorant{
-            font-family: 'Cormorant', sans-serif!important;
+            font-family: 'Cormorant', sans-serif;
         }
         .custom-font-brandon-black{
-            font-family: 'brandon_grotesqueblack'!important;
+            font-family: 'brandon_grotesqueblack';
         }
         .custom-font-brandon-normal{
-            font-family: 'brandon_grotesquelight'!important;
-            font-weight:800;
+            font-family: 'brandon_grotesquelight';
         }
         .btn, .btn * {
         box-sizing: border-box;
@@ -83,18 +77,7 @@
             flex-shrink: 0;
             position: relative;
             }
-        .btn:hover {
-            color: #ddd6d6;
-            background-color: var(--bs-btn-hover-bg);
-            border-color: var(--bs-btn-hover-border-color);
-            background: #0e1944;
-        }
-        .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
-            color: #ddd6d6;
-            background-color: var(--bs-btn-hover-bg);
-            border-color: var(--bs-btn-hover-border-color);
-            background: #0e1944;
-        }    
+
         .button {
             color: var(--neutral-text-light-2, #ffffff);
             text-align: center;
@@ -104,7 +87,7 @@
             align-items: center;
             justify-content: center}
         .joliane-experienced .title{
-            font-size:125px;
+            font-size:150px;
             color:#d5ad6b;
         }
         .joliane-experienced .sub-heading{
@@ -117,7 +100,6 @@
         .section-6 h1{
             font-size:10em;
             line-height: 0.8em;
-            margin-bottom:40px;
         }
 
         @media (max-width: 991.98px) {
@@ -140,18 +122,7 @@
               #section2_content > div > div.row.justify-content-md-center.mt-5{
                 margin-top:0px!important;
               }
-              .section-7{
-                background-size: contain!important;
-                background-position: right 0px bottom 202px!important;
-              }
               
-        }
-
-        .section-7{
-           background-repeat: no-repeat;
-           background-size: cover;
-           background-position:center;
-           background-image: url('https://jolianemock.vercel.app/images/section8/section8-background.png');
         }
         .section-1-right-content{
             margin-top:175px;
@@ -205,14 +176,12 @@
                                 <div style="color: #D5AD6B; font-size: 42px; font-family: Cormorant; font-style: italic; font-weight: 300; line-height: 0px; word-wrap: break-word">Holistic healer</div>
                                 <div class="website-name" style="color: #1C1C1E; font-size: 100px; font-family: Cormorant; font-weight: 300; text-transform: uppercase; line-height: 141px; word-wrap: break-word">Joliane</div>
                             </div>
-                            <div><p style="color:#1c1c1e">Welcome to the next part of your journey. I’m delighted to share and to be a part of your own healing transformation journey!</p>
-                            <p>Life is a remarkable adventure, filled with triumphs and challenges, all of which shape our paths and what lead me to become a healing expert. Take a moment to learn more about me and how I can support your path.
-</p></div>
+                            <div><p style="color:#1c1c1e">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
                         </div>
                       
                    
                         <div class="button btn">
-                            <div class="button-text"><a style="color:#fff;text-decoration: none;" href="#aboutme">Know More</a></div>
+                            <div class="button-text">Know More</div>
                         </div>
                   
                     
@@ -221,51 +190,43 @@
             </div>
         </div>
         
-            <section id="section2_content" class="container-fluid text-center" style=" background-repeat: no-repeat;background-size: cover;background-position:center;background-image: url('https://jolianemock.vercel.app/images/section2/background-section2.png')">
+            <section id="section2_content" class="container-fluid text-center" style=" background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianemock.vercel.app/images/section2/background-section2.png')">
          
                 <div class="container">
                       <div class="row justify-content-md-center mt-5">
                         <div class="col-md-auto mt-5">
-                                <h3>Case Studies</h3>
-                                <!-- <h2>Lorem ipsum dolor</h2> -->
+                                <h3>Lorem Ipsum</h3>
+                                <h2>Lorem ipsum dolor</h2>
                         </div>
                       </div>
                       <div class="row justify-content-md-center">
-                            <!-- <div class="col-12">
+                            <div class="col-12">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            </div> -->
+                            </div>
                       </div>
                       
                       <div class="row mb-5">
                         <div class="col-lg-4 p-3">
                             <div>
                                 <img src="https://jolianemock.vercel.app/images/section2/joliane1.png" class="card-img-top" alt="...">
-                                    <h5 class="custom-font-brandon-black mt-3 text-uppercase">Neurological Issues </h5>
-                                    <h5 class="custom-font-brandon-normal mt-3">Detoxification </h5>
-                                    
-                                    <p class="card-text mt-2">A client had a baby who began showing signs of neurological issues and troubled breathing at just six weeks old. She had visited countless doctors' offices, including naturopathic and traditional practitioners, but no one had a solution. Feeling hopeless and deeply concerned about her baby's breathing condition, she reached out to me for help. </p>
-                                    <p class="card-text">By implementing a full regenerative detoxification protocol with herbal support for mom, the baby was able to heal through the mother's milk.  Within just three months of working together, the baby's troubled breathing and other neurological symptoms had stopped.</p>
-                                    
+                                    <h5 class="card-title mt-3">Excepteur sint occaecat cupidatat</h5>
+                                    <p class="card-text mt-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                        
                             </div>
                         </div>
                         <div class="col-lg-4 p-3">
                             <div>
                                 <img src="https://jolianemock.vercel.app/images/section2/joliane2.png" class="card-img-top" alt="...">
-                                <h5 class="custom-font-brandon-black mt-3 text-uppercase">Past Life Trama</h5>
-                                <h5 class="custom-font-brandon-normal mt-3">Hypnotherapy</h5>
-                                <p class="card-text mt-2"> A client began weekly hypnotherapy sessions to address childhood traumas she suspected were the source of her weight issues. During one of our sessions, her subconscious mind brought us back to a past life with unresolved emotions. Once we processed those stored feelings, and liberated her from her past, it became easier for her to move forward on her journey.</p>
+                                <h5 class="card-title mt-3">Excepteur sint occaecat cupidatat</h5>
+                                <p class="card-text mt-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           
                             </div>
                         </div>
                         <div class="col-lg-4 p-3">
                             <div>
                                 <img src="https://jolianemock.vercel.app/images/section2/joliane3.png" class="card-img-top" alt="...">
-                                <h5 class="custom-font-brandon-black mt-3 text-uppercase">Toxic Relationship Distress</h5>
-                                <h5 class="custom-font-brandon-normal mt-3">Energy Clearing</h5>
-                                
-                                <p class="card-text mt-2"> A client reached out in distress from an abusive relationship. With permission, I connected to her higher self to clear her energetic fields. My guides showed me a thick, large umbilical cord that needed to be cut. They psychically handed me the tools to disconnect her from her mother wounds. I filled the wound with light with confirmation it was complete.</p>
-                                <p class="card-text">She informed me there was a bit of blood in her navel – nothing alarming, just odd. Clearing the energy virtually was incredibly power. She was energetically stronger - equivalent to a few months/years of therapy.</p>
+                                <h5 class="card-title mt-3">Excepteur sint occaecat cupidatat</h5>
+                                <p class="card-text mt-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                
                             </div>
                         </div>
@@ -302,60 +263,49 @@
                     </div>
                     <div class="col-md-8">
                         <div class="row mt-5 text-start">
-                            <div class="col-md-auto mt-0">
-                                    <h3>Credentials</h3>
-                                    <h2>Integrating my Learnings with Execution</h2>
+                            <div class="col-md-auto mt-5">
+                                    <h3>Lorem Ipsum</h3>
+                                    <h2>Lorem ipsum dolor</h2>
                             </div>
                         </div>
                         <div class="row text-start">
                             <div class="col-12">
-                                <p>Over 10+ years, I have honed a unique and comprehensive approach to healing using several modalities, addressing you as a whole being; the physical, emotional, mental, energy, and spiritual. With 30+ trainings and certifications and 5000+ hours of experience, I've shared my expertise with clients.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6 text-center">
-                                <h1 class="title custom-font-cormorant">750+</h1>
-                                <span class="sub-heading custom-font-brandon-black">COACHING (Mental)</span>
-                                <p class="text-uppercase">Holistic Health & Hypnosis Coaching</p>
+                            <div class="col-md-4">
+                                <h1 class="title custom-font-cormorant">50+</h1>
+                                <span class="sub-heading custom-font-brandon-black">Lorem ipsum dolor</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                             </div>
-                            <div class="col-md-6 text-center">
-                                <h1 class="title custom-font-cormorant">2100+</h1>
-                                <span class="sub-heading custom-font-brandon-black">NUTRTITION (Body)</span>
-                                <p class="text-uppercase">HERBALISM * IRIDOLOGY * DETOXIFICATION</p>
+                            <div class="col-md-4">
+                                <h1 class="title custom-font-cormorant">10+</h1>
+                                <span class="sub-heading custom-font-brandon-black">Lorem ipsum dolor</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                             </div>
-                            
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 text-center">
-                                <h1 class="title custom-font-cormorant">750+</h1>
-                                <span class="sub-heading custom-font-brandon-black">METAPHYSICAL (Energy)</span>
-                                <p class="text-uppercase">Energy * Chakra * Angelic Healing</p>
-                            </div>
-                            <div class="col-md-6 text-center">
-                                <h1 class="title custom-font-cormorant">1100+</h1>
-                                <span class="sub-heading custom-font-brandon-black">SPIRITUAL (WiFi Connection)</span>
-                                <p class="text-uppercase">Dream Interpretation, Spiritual Healing, Past Life, Soul Work</p>
+                            <div class="col-md-4">
+                                <h1 class="title custom-font-cormorant">257</h1>
+                                <span class="sub-heading custom-font-brandon-black">Lorem ipsum dolor</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="aboutme" class="container-fluid" style=" background-repeat: no-repeat;background-size: cover;background-position:center;background-image: url('https://jolianemock.vercel.app/images/section4/section4-background.png')">
+            <section class="container-fluid" style=" background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianemock.vercel.app/images/section4/section4-background.png')">
                 <div class="container">
                     <div class="row mt-5">
                         <div class="col-md-4">
                             <div class="row mt-5 text-start">
                                 <div class="col-md-auto mt-5">
-                                        <h3>About Me</h3>
-                                        <h2>From Pain to Purpose: My Healing Trajectory</h2>
+                                        <h3>Lorem Ipsum</h3>
+                                        <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
                                 </div>
                             </div>
                             <div class="row text-start">
                                 <div class="col-12">
-                                    <p>For me, I was abruptly shaken by a double blow of autoimmune diseases: Ankylosing spondylitis (a 
-form of arthritis affecting joints and the spine) and Type 1 diabetes. The physical pain from arthritis was overwhelming, and I started noticing blood sugar issues and the need for insulin. My health and doctors were starting to dictate my quality of life. I knew I needed to take control before being riddled with ailments became my norm. Determined to heal myself, I embarked on a path of self-discovery and empowerment.</p><p>By connecting with a naturopathic specialist, I delved into regenerative detoxification, iridology, herbalism, natural hygiene, and fasting protocols, gaining a deep understanding of the body's functioning and the role of elimination organs and glands. Through implementing this knowledge, I was able to achieve my goal and stay insulin-free for 101 days with the support of daily herbal treatments. Within six months, pancreatic regeneration was initiated and I achieved optimal blood sugar levels.</p>
-<p>Through years of intensive training and self-healing, I not only restored my health but also found my calling to assist others on their healing journeys.</p><p>My desire to help people led me to become a certified health coach, specializing in regenerative detoxification, iridology, herbalism, and fasting protocols.</p>
-                                    <!-- <ul class="custom-font-brandon-normal">
+                                    <ul class="custom-font-brandon-normal">
                                         <li>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                         </li>
@@ -365,7 +315,7 @@ form of arthritis affecting joints and the spine) and Type 1 diabetes. The physi
                                         <li>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                         </li>
-                                    </ul> -->
+                                    </ul>
                                   
                                 </div>
                             </div>
@@ -376,24 +326,24 @@ form of arthritis affecting joints and the spine) and Type 1 diabetes. The physi
                         <div class="col-md-4 mt-5">
                             <div class="row mt-5">
                                 <div class="col">
-                                    <h3>The Deeper Healing: Integrating Hypnotherapy and Spiritual Exploration</h3>
-                                    <p>Life's trajectory is never linear. While I successfully worked on healing my physical body, I faced a traumatic incident, triggering a toxic family dynamic that affected my emotional well-being. Consequently, I needed insulin again.</p><p>This episode highlighted the complexity of emotional health and its impact in the overall well-being of any individual. I realized that emotional and mental healing was equally crucial and often more complex to holistic healing. This realization led me to explore the fascinating realms of hypnosis and hypnotherapy, where I deep dived into emotional healing, trauma processing, and subconscious reprogramming.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
                             </div> 
                             <div class="row">
-                                <h3>Leaning and Enlightenment</h3>
-                                
-<p>My personal experiences ignited a deep desire to discover the secrets of trauma healing, reprogramming the subconscious mind, and understanding the complex layers of emotions.</p>
-<p>In my pursuit, I've immersed myself in numerous hypnotherapy courses, delving into age regression techniques and trauma work. I studied one of the most renowned hypnotherapists in the world, Cal Banyan, who equipped me with profound insights and skills I've used to help complex clients with significant breakthroughs.</p>
-<p>But my quest didn't stop there; it took a metaphysical turn that opened the door to spirituality and energetics. Embracing metaphysical hypnosis, I discovered the captivating realm of energy clearings and past life healing. The concept of a life between lives fascinated me, whereas souls, we consciously choose our appearances, settings, and environments on Earth to fulfill our unique purpose and soul growth.
-From this foundation, I delved further into the depths of metaphysics, quantum physics, and all things spiritual. I welcomed energy healing and psychic practices into my repertoire, recognizing their powerful potential to facilitate thorough transformations and spiritual awakenings.
-</p>
-<p>Even as I pursued my studies in hypnosis and hypnotherapy, my inquisitive nature led me to understand the subtle language of dreams, the voice of the subconscious mind. For four years, I dedicated myself to the study of dream interpretation, enabling me to grasp the intense messages embedded within our dreams.</p>
+                                <div class="col">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                </div>
+                            </div> 
+                            <div class="row">
+                                <div class="col">
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>    
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="container-fluid section-5" style=" background-repeat: no-repeat;background-size: cover;background-position:center;background-image: url('https://jolianemock.vercel.app/images/section5/section5-background.png')">
+            <section class="container-fluid section-5" style=" background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianemock.vercel.app/images/section5/section5-background.png')">
                 <div class="container">
                     <div class="row mt-5 text-start">
                         <div class="col-md-8 mt-5">
@@ -418,19 +368,17 @@ From this foundation, I delved further into the depths of metaphysics, quantum p
                     
                 </div>
             </section>
-            <section class="container-fluid  section-6" style="margin-top:100px;background-position:center; background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianemock.vercel.app/images/section6/section6-background.png')">
+            <section class="container-fluid  section-6" style="margin-top:100px; background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianemock.vercel.app/images/section6/section6-background.png')">
                 <div class="container mt-5">
                     <div class="row justify-content-md-center mt-5">
                       <div class="col-md-auto mt-5 text-center mt-5">
-                              <h3>Methodology</h3>
-                              <!-- <h2>Lorem ipsum dolor</h2> -->
+                              <h3>Lorem Ipsum</h3>
+                              <h2>Lorem ipsum dolor</h2>
                       </div>
                     </div>
                     <div class="row justify-content-md-center">
-                          <div class="col-12 text-center" style="color:#8A8A8E">
-                              <p>The layers of a human being is as if viewing complexities of a computer and its connectivity; the "Hardware," "Software," "Power Supply," and "WiFi Connection." Most practitioners specialize in one or two areas, yet I firmly believe true healing involves addressing all the facets that make you, you.</p>
-                              <p>The physical body, the emotions, the chakras, the energy, the spirit, and beyond.
-                            </p>
+                          <div class="col-12" style="color:#8A8A8E">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                           </div>
                     </div>
                     
@@ -438,36 +386,32 @@ From this foundation, I delved further into the depths of metaphysics, quantum p
                         <div class="col-lg-3 p-2">
                             <div class="p-2 g-col-3 text-start rounded-4 p-3" style="background:#EECEB9">
                                 <h1 class="custom-font-cormorant">1</h1>
-                                <p style="font-size:20px;font-weight:800;margin-bottom:0rem;">HARDWARE</p>
-                                <p style="font-size:20px;font-weight:800;margin-bottom:0rem;">Body</p>
-                                <p style="margin-bottom:0rem;">Holistic lifestyle coaching, regenerative detoxification, iridology, natural hygiene, fasting, plant-powered / plant-based nutrition, herbalism, cleanse programs, detox protocols, counseling.</p>
+                                <p style="font-size:20px;font-weight:800;margin-bottom:0rem;">Lorem Ipsum dolor</p>
+                                <p style="margin-bottom:0rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                 
                               </div>
                         </div>
                         <div class="col-lg-3 p-2">
                             <div class="p-2 g-col-3 text-start rounded-4 p-3" style="background:#EECEB9">
                                 <h1 class="custom-font-cormorant">2</h1>
-                                <p style="font-size:20px;font-weight:800;margin-bottom:0rem;">SOFTWARE</p>
-                                <p style="font-size:20px;font-weight:800;margin-bottom:0rem;">Emotional + Mental</p>
-                                <p style="margin-bottom:0rem;">hypnosis, hypnotherapy, subconscious mind, unconscious mind, inner conflict, trauma therapy, deep wounds, core wounds, toxic relationships, karma, karmic relationships, toxic relationships, law of attraction, manifestation, NLP, neuro-linguistic programming, meditation, power of the mind, mindfulness, mind-body-spirit, metaphysics.</p>
+                                <p style="font-size:20px;font-weight:800;margin-bottom:0rem;">Lorem Ipsum dolor</p>
+                                <p style="margin-bottom:0rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                 
                               </div>
                         </div>
                         <div class="col-lg-3 p-2">
                             <div class="p-2 g-col-3 text-start rounded-4 p-3" style="background:#EECEB9">
                                 <h1 class="custom-font-cormorant">3</h1>
-                                <p style="font-size:20px;font-weight:800;margin-bottom:0rem;">POWER SUPPLY</p>
-                                <p style="font-size:20px;font-weight:800;margin-bottom:0rem;">Energy</p>
-                                <p style="margin-bottom:0rem;">Body Text - Energy healing, psychic healing, remote healing, chakra healing, chakra balancing, crystal healing, holistic healing, channeled healing, angelic healing, angelic frequencies, hands-on healing, shamanic healing, energy clearing, feng shui.</p>
+                                <p style="font-size:20px;font-weight:800;margin-bottom:0rem;">Lorem Ipsum dolor</p>
+                                <p style="margin-bottom:0rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                 
                               </div>
                         </div>
                         <div class="col-lg-3 p-2">
                             <div class="p-2 g-col-3 text-start rounded-4 p-3" style="background:#EECEB9">
                                 <h1 class="custom-font-cormorant">4</h1>
-                                <p style="font-size:20px;font-weight:800;margin-bottom:0rem;">WIFI CONNECTION</p>
-                                <p style="font-size:20px;font-weight:800;margin-bottom:0rem;">Spiritual</p>
-                                <p style="margin-bottom:0rem;">Body Text - Dream interpretation, spiritual healing, spiritual guidance, soul work, life purpose, spiritual teacher, spiritual gifts, spirit guides, intuitive, medium, psychic, clairvoyance, clairaudience, claircognizance, clairsentience, past-life healing, astrology, numerology, human design, oneness.</p>
+                                <p style="font-size:20px;font-weight:800;margin-bottom:0rem;">Lorem Ipsum dolor</p>
+                                <p style="margin-bottom:0rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                 
                               </div>
                         </div>
@@ -502,38 +446,30 @@ From this foundation, I delved further into the depths of metaphysics, quantum p
                     </div>
               </div>
             </section>
-            <section class="container-fluid  section-7" style="margin-top:100px; background-repeat: no-repeat;background-size: cover;background-position:center;background-image: url('https://jolianemock.vercel.app/images/section7/section7-background.png')">
+            <section class="container-fluid  section-7" style="margin-top:100px; background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianemock.vercel.app/images/section7/section7-background.png')">
                 <div class="container mt-5">
                     <div class="row justify-content-md-center mt-5">
                       <div class="col-md-auto mt-5 text-center mt-5">
-                              <h3>Reviews/Testimonials</h3>
-                              
+                              <h3>Lorem Ipsum</h3>
+                              <h2>Lorem ipsum dolor</h2>
                       </div>
                     </div>
-                    <!-- <div class="row justify-content-md-center">
+                    <div class="row justify-content-md-center">
                           <div class="col-12" style="color:#8A8A8E">
                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                           </div>
-                    </div> -->
+                    </div>
                     
                     <div class="row mb-5 justify-content-md-center">
-                        <div class="col-lg-6 p-2">
-                            <h3>Understanding the Cosmic Connection: Angelic Realm, Astrology and Spiritual Gifts</h3>
-                            <p>Embracing the wisdom of the angelic realm, I channel healing energy and guidance from the angelic realm that surrounds us. My connection to the angels goes beyond the conventional psychic mediumship, as I predominantly work with the non-physical energy of the angelic realm. After 11 years in this field, this unique ability has been recognized and celebrated by the angels themselves, earning me an esteemed "Doctorate in Healing" from the light.</p><p>
-As my spiritual gifts evolved, I embraced the knowledge of astrology, human design, and numerology. Understanding my clients' astrological charts allows me to gain a deeper understanding of their journey and offer tailored guidance.</p><p>
-Throughout my experiences, I also realized that dreams are the language of the subconscious mind. Dream interpretation became an essential aspect of my work, offering additional clues and valuable information to support my clients' healing process.</p>
-
-                            <!-- <img src="https://jolianemock.vercel.app/images/section7/testimonial1.png" width="100%"/> -->
+                        <div class="col-lg-4 p-2">
+                            <img src="https://jolianemock.vercel.app/images/section7/testimonial1.png" width="100%"/>
                         </div>
-                        <div class="col-lg-6 p-2">
-                            <!-- <img src="https://jolianemock.vercel.app/images/section7/testimonial2.png" width="100%"/> -->
-                            <h3>The Future Ahead: Road to Continuous Learning</h3>
-                            <p>My thirst for knowledge and growth is unquenchable. I continuously delve into astrology, quantum physics, and other spiritual practices to deepen my understanding and refine my healing skills. These tools provided invaluable insights into the unique paths we traverse in life. My clients' healing experiences inspire me to keep evolving and updating my spiritual gifts, just like a software update, to provide the best guidance possible.</p><p>As I assist others on their route, I continue to move forward on my path as well. While I'm still on my own healing journey with type 1 diabetes, I know that the emotional and spiritual work I've done is bringing me closer to my goal. Emphasizing the connection between emotional and physical well-being, I am confident that mending my emotional wounds will eventually lead to the regeneration of my pancreas.</p><p>My journey has been a profound testament to the power of determination, resilience, and holistic healing. My circumstances have taught me the value of perseverance and the immense rewards that come from embracing one's sole purpose and spiritual gifts.</p>
+                        <div class="col-lg-4 p-2">
+                            <img src="https://jolianemock.vercel.app/images/section7/testimonial2.png" width="100%"/>
                         </div>
-                        <!-- <div class="col-lg-4 p-2">
+                        <div class="col-lg-4 p-2">
                             <img src="https://jolianemock.vercel.app/images/section7/testimonial3.png" width="100%"/>
-                            
-                        </div> -->
+                        </div>
                       <!-- <div class="col-md-12">
                         <img src="C:\laragon\www\joliane\images\section7\testimonial.png" width="100%"/>
                       </div> -->
@@ -546,11 +482,11 @@ Throughout my experiences, I also realized that dreams are the language of the s
                       </div>
               </div>
             </section>
-            <section class="container-fluid  section-7">
+            <section class="container-fluid  section-7" style="background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianemock.vercel.app/images/section8/section8-background.png')">
                 <div class="container">
                     <div class="row justify-content-md-start mt-5">
                       <div class="col-md-4 text-start mt-5 p-5" style="background: #142050;color: #fff;">
-                              <h3>Lorem ipsum dolor</h3>
+                              <h3>Lorem Ipsum</h3>
                               <h2 style="color:#fff;">Lorem ipsum dolor</h2>
                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                               
@@ -572,32 +508,20 @@ Throughout my experiences, I also realized that dreams are the language of the s
                               </div>
                               <div class="row justify-content-start">
                                 <div class="col-auto mt-3">
-                                    <div class="button btn" style="background-color:#D5AD6B"><div class="button-text">Schedule A  Call</div></div>
+                                    <div class="button btn" style="background-color:#D5AD6B"><div class="button-text">Know More</div></div>
                                 </div>
                                 
                               </div>
                       
                       </div>
-                      <div class="col-md-8 text-start mt-5 ">
-                        <!-- <div class="mt-2 p-2"><h3>Lorem Ipsum</h3> -->
-                            <h2>Embracing Compassion and Complexity:  Your Holistic Expedition</h2>
-                            <p>In my practice, I combine all my tools, skills, and intuition to create personalized healing experiences; addressing client needs from a multi-faceted perspective. We collaborate, and I channel information to guide you through the layers of healing that require attention. I have developed an innate ability to see the layers of emotional healing like a Photoshopped image, enabling me to target deep-rooted issues and clear them at their core. </p>
-                            <p>My approach focuses on inclusivity and compassion towards those who are ready to embark on a deeper healing journey. I find joy in working with complex cases where conventional methods have fallen short. Whether you seek physical/nutritional support, emotional release, spiritual guidance, or a deeper understanding of your life purpose, I am committed to providing you with the tools and support you need to thrive. </p>
-                            <p>My discreet and confidential approach has also led me to assist high-profile individuals, celebrities, athletes, and public figures on their personal growth and healing quests.</p>
-                            <h5>Step into the light of healing with me, your guide through life's intricate tapestry of wellness and spiritual awakening. Let my years of knowledge, experience, and dedication lead you to a life of thriving and inner fulfillment.</h5>
-                            <p>Remember, healing is a continuous process, and I am here to support you every step of the way.<p>
-
-                           <p>On this note, I would like to thank you for taking the time to get to know me. I look forward to being a part of your healing process, and together, we will unlock the limitless potential that resides within us all.</p>
-                           <p>“To anyone out there who's hurting — it's not a sign of weakness to ask for help. It's a sign of strength.” — Barack Obama</p>
-
-                           <p>Let's start your era of healing!<br> 
-                            With love and light,<br>
-                            Joliane
-                            </p>
-
+                      <div class="col-md-6 text-start mt-5 ">
+                        <div class="mt-2 p-2"><h3>Lorem Ipsum</h3>
+                            <h2>Lorem ipsum dolor</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                             <div class="mb-5 mt-5 row justify-content-md-start">
                                 <div class="col-auto mb-5">
-                                    <div class="button btn"><div class="button-text">Schedule A  Call</div></div>
+                                    <div class="button btn"><div class="button-text">Know More</div></div>
                                 </div>
                                 
                             </div></div>
