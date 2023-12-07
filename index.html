@@ -25,6 +25,9 @@
         body{
             background:#fff!important;
         }
+        .wsite-elements.wsite-not-footer{
+            display:none;
+        }
         h2{
             font-family: 'Cormorant', sans-serif!important;
             font-weight: 400!important;
@@ -205,6 +208,16 @@
         .nav-pills .nav-link{
             color:#000000a6;
         }
+        .wsite-form-label{
+            color:#fff!important;
+        }
+        .wsite-form-field .wsite-form-input{
+            color:#fff!important;
+        }
+        .wsite-form-input{
+            border:1px solid #fff!important;
+        }
+
     </style>
 </head>
   <body>
@@ -722,29 +735,62 @@
                               <!-- <h2 style="color:#fff!important;">Lorem ipsum dolor</h2> -->
                               <p>Step into the light of healing with me, your guide through life's intricate tapestry of wellness and spiritual awakening.</p>
                               
-                              <div class="mb-1">
-                                <label for="exampleFormControlInput1" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1">
-                              </div>
-                              <div class="mb-1">
-                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1">
-                              </div>
-                              <div class="mb-1">
-                                <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-                                <input type="number" class="form-control" id="exampleFormControlInput1">
-                              </div>
-                              <div class="mb-1">
-                                <label for="exampleFormControlTextarea1" class="form-label">Message Us</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                              </div>
-                              <div class="row justify-content-start">
-                                <div class="col-auto mt-3">
-                                    <!-- <div class="button btn" ><div class="button-text">Schedule A  Call</div></div> -->
-                                    <div class="button btn mb-5" style="background-color:#D5AD6B"><a style="color:#000;text-decoration: none;" href="https://www.jolianetremblay.com/freecallwithjoliane.html">Schedule A Call</a></div>
+                              <form enctype="multipart/form-data" action="https://www.jolianetremblay.com/ajax/apps/formSubmitAjax.php" method="POST" id="form-319413055669446680" accept-charset="UTF-8" target="form-319413055669446680-target-1701852053170">
+                                <div id="319413055669446680-form-parent" class="wsite-form-container" style="margin-top:10px;">
+                                    <ul class="formlist" id="319413055669446680-form-list">
+                                        <h2 class="wsite-content-title"></h2>
+                        
+                        <label class="wsite-form-label wsite-form-fields-required-label"><span class="form-required">*</span> Indicates required field</label><div><div class="wsite-form-field wsite-name-field form-field-error" style="margin:5px 0px 5px 0px;">
+                                        <label class="wsite-form-label">Name <span class="form-required">*</span></label>
+                                        <div style="clear:both;"></div>
+                                        <div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
+                                            <input aria-required="true" id="input-374941136945130400" class="wsite-form-input wsite-input" placeholder="First" type="text" name="_u374941136945130400[first]">
+                                            <label class="wsite-form-sublabel" for="input-374941136945130400">First</label>
+                                        </div>
+                                        <div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
+                                            <input aria-required="true" id="input-374941136945130400-1" class="wsite-form-input wsite-input" placeholder="Last" type="text" name="_u374941136945130400[last]">
+                                            <label class="wsite-form-sublabel" for="input-374941136945130400-1">Last</label>
+                                        </div>
+                                        <div id="instructions-374941136945130400" class="wsite-form-instructions" style="display:none;"></div>
+                                    </div>
+                                    <div style="clear:both;"></div></div>
+                        
+                        <div><div class="wsite-form-field form-field-error" style="margin:5px 0px 5px 0px;">
+                                        <label class="wsite-form-label" for="input-773341573977897956">Email <span class="form-required">*</span></label>
+                                        <div class="wsite-form-input-container">
+                                            <input aria-required="true" id="input-773341573977897956" class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="_u773341573977897956">
+                                        </div>
+                                        <div id="instructions-773341573977897956" class="wsite-form-instructions" style="display:none;"></div>
+                                    </div></div>
+                        
+                        <div><div class="wsite-form-field form-field-error" style="margin:5px 0px 5px 0px;">
+                                        <label class="wsite-form-label" for="input-581862186226994819">Comment <span class="form-required">*</span></label>
+                                        <div class="wsite-form-input-container">
+                                            <textarea aria-required="true" id="input-581862186226994819" class="wsite-form-input wsite-input wsite-input-width-370px" name="_u581862186226994819" style="height: 200px"></textarea>
+                                        </div>
+                                        <div id="instructions-581862186226994819" class="wsite-form-instructions" style="display:none;"></div>
+                                    </div></div>
+                                    </ul>
+                                    
                                 </div>
-                                
-                              </div>
+                                <div style="display:none; visibility:hidden;">
+                                    <input type="hidden" name="wsite_subject">
+                                </div>
+                                <div style="text-align:left; margin-top:10px; margin-bottom:10px;">
+                                    <input type="hidden" name="form_version" value="2">
+                                    <input type="hidden" name="wsite_approved" id="wsite-approved" value="approved">
+                                    <input type="hidden" name="ucfid" value="319413055669446680">
+                                    <input type="hidden" name="recaptcha_token">
+                                    <input type="submit" role="button" aria-label="Submit" value="Submit" style="position:absolute;top:0;left:-9999px;width:1px;height:1px">
+                                    <a class="wsite-button button btn" style="background-color:#D5AD6B!important;color:#050854!important">
+                                        <span class="wsite-button-inner">Schedule A Call</span>
+                                    </a>
+                                </div>
+                            </form>
+                              
+                            <!-- <a class="button btn mb-5" style="background-color:#D5AD6B">
+                                <span class="wsite-button-inner" style="color:#000;text-decoration: none;">Schedule A Call</span>
+                            </a> -->
                         </div>
                               
                       
@@ -853,7 +899,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <!-- <div style='display:none'>{title}</div>
 <div style='display:none'>{menu}</div>
-<div style='display:none'>{content}</div>
+
 <div style='padding: 20px; width:100%; text-align:center;'>{footer}</div> -->
+<div >{content}</div>
+<script type="text/javascript" src="/files/theme/plugins.js"></script>
+<script type="text/javascript" src="/files/theme/custom.js"></script>
 </body>
 </html>

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://jolianetremblay.vercel.app/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://jolianetremblay.vercel.app/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jolianetremblay.vercel.app/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://jolianetremblay.vercel.app/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="https://jolianetremblay.vercel.app/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://jolianetremblay.vercel.app/css/fonts/stylesheet.css" type="text/css" charset="utf-8"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/09e718ae63ba80000081cd209/118b1dad37e483f222f1d1ea4.js");</script>
+    
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Cormorant&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+        
+        body{
+            background:#fff!important;
+        }
+        h1{
+            font-family: 'brandon_grotesqueblack', sans-serif!important;
+            font-size: 3em;
+        }
+        h2{
+            font-family: 'Cormorant', sans-serif!important;
+            font-weight: 400!important;
+            font-style: normal!important;
+            font-size: 40px!important;
+            line-height: 1.15!important;
+            color:#142050!important;
+        }
+        h3 {
+            font-family: 'Cormorant', sans-serif!important;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 40px;
+            line-height: 1;
+            color: #d5ad6b;
+            -webkit-font-smoothing: antialiased;
+            text-transform: uppercase;
+        }
+        
+        .card-title{
+            font-family: 'brandon_grotesqueblack'!important;
+            font-weight:normal;
+            font-style:normal;
+        }
+        p, ul{
+            font-family: 'brandon_grotesquelight'!important;
+            font-weight:normal;
+            font-style:normal;
+            font-size:20px!important;
+        }
+        .custom-font-cormorant{
+            font-family: 'Cormorant', sans-serif!important;
+        }
+        .custom-font-brandon-black{
+            font-family: 'brandon_grotesqueblack'!important;
+        }
+        .custom-font-brandon-normal{
+            font-family: 'brandon_grotesquelight'!important;
+            font-weight:800;
+        }
+        .btn, .btn * {
+        box-sizing: border-box;
+        }
+        .btn {
+            background: #050854;
+            border-radius: 10px;
+            padding: 29px 55px 29px 55px;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            height: 82px;
+            position: relative;
+            }
+
+        .button-text {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            position: relative;
+            }
+        .btn:hover {
+            color: #ddd6d6;
+            background-color: var(--bs-btn-hover-bg);
+            border-color: var(--bs-btn-hover-border-color);
+            background: #0e1944;
+        }
+        .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+            color: #ddd6d6;
+            background-color: var(--bs-btn-hover-bg);
+            border-color: var(--bs-btn-hover-border-color);
+            background: #0e1944;
+        }    
+        .button {
+            color: var(--neutral-text-light-2, #ffffff);
+            text-align: center;
+            font: var(--button-button, 700 24px/150% 'brandon_grotesquelight', sans-serif);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center}
+        .joliane-experienced .title{
+            font-size:125px;
+            color:#d5ad6b;
+        }
+        .joliane-experienced .sub-heading{
+            font-size:20px;
+        }
+        .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+            background-color:#142050;
+            color:#fff;
+        }
+        .section-6 h1{
+            font-size:10em;
+            line-height: 0.8em;
+            margin-bottom:40px;
+        }
+
+        @media (max-width: 991.98px) {
+              .joliane-experience-img{
+                width:100%!important;
+              }
+              .section-1-right-content{
+                margin-top: 30px!important;
+                margin-bottom: 0px!important;
+              }
+              .website-name{
+                font-size:25px!important;
+              }  
+              .player-content-img{
+                position:relative!important;
+              }
+              .player-content-img > img{
+                width:100%!important;                
+              }
+              #section2_content > div > div.row.justify-content-md-center.mt-5{
+                margin-top:0px!important;
+              }
+              .section-7{
+                background-size: cover!important;
+                background-position: right -241px top 235px!important;
+              }
+			  .nav-pills .nav-link{
+				  font-size:15px;
+			  }
+              .bi.me-2{
+                display:none;
+              }
+              .holistic-title{
+                font-size:3.0em!important;
+              }
+              
+        }
+
+        .section-7{
+           background-repeat: no-repeat;
+           background-size: auto;
+           background-position:center;
+           background-image: url('https://jolianetremblay.vercel.app/images/section8/section8-background-f5.png');
+        }
+        .section-1-right-content{
+            margin-top:250px;
+        }
+        /* #navbarNavDropdown{
+            position: absolute;
+            width: 100%;
+            left: 0px;
+            top:0px;
+          
+        } */
+        .player-content-img{
+            position:absolute;
+        }
+        .player-content-img > img{
+            width:720px;                
+        }
+        .nav-pills .nav-link{
+            color:#000000a6;
+        }
+    </style>
+</head>
+  <body>
+
+ 
+   <header class="d-flex flex-wrap justify-content-center py-3 mb-4"  style="position: fixed;z-index: 9999;background: #fff;width: 100%;">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      <span class="fs-4"><img src="https://jolianetremblay.vercel.app/images/logo.png" style="width:220px"></span>
+    </a>
+
+    <ul class="nav nav-pills custom-font-brandon-normal" >
+        <li class="nav-item custom-font-brandon-black"><a href="https://www.jolianetremblay.com" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="/testimonials.html" class="nav-link">Testimonials</a></li>
+        <li class="nav-item"><a href="/media.html" class="nav-link">Media</a></li>
+        <li class="nav-item "><a href="#contactme" class="nav-link" aria-current="page">Contact Me</a></li>
+    </ul>
+      
+  </header>
+    <main role="main" class="container-fluid">
+            <section class="container-fluid media justify-content-center text-center header-title" style="background-image: url(https://jolianetremblay.vercel.app/images/media/weight-release-personal-background.png);background-position:center;background-size: cover;">
+                <div class="row">
+                    <div class="col-lg-4 mt-5">
+                            <div class=""></div>
+                            <img src="https://jolianetremblay.vercel.app/images/media/weight-release-personal.png" style="width:100%;" class="mt-5"/>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="section-1-right-content">
+                            <div>
+                                <div class="justify-content-center">
+                                    <div style="color: #D5AD6B; font-size: 3.5em; font-family: Cormorant; font-style: italic; font-weight: 300; line-height: 40px; word-wrap: break-word" class="holistic-title">CELEBRITY</div>
+                                    <div class="website-name" style="color: #050854; font-size: 45px; font-family: Cormorant; font-weight: 300; word-wrap: break-word">Services</div>
+                                </div>
+                                <div>
+                                </div>
+                            </div> 
+                         </div>
+                    </div>
+                </div>
+        
+            </section>
+            <section class="container-fluid mt-5">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1>HOLISTIC SUCCESS</h1>
+                        <h2>Higher levels of success in all areas of life</h2>
+                    </div>    
+                    <div class="col-md-12">
+                        <p>You worked hard to get where you are. You took risks that have clearly paid off. You have been following directions from the industry, and against all odds, have reached success like no one thought possible.</p> 
+                        <p>People envy you. They would trade anything to be you. (The funny thing is that these people havana  idea what you sacrificed to be there!)</p>
+                        <p>And somehow, deep down, it feels like something is missing.</p>
+                        <p>It feels like you have lost a part of yourself along the way, and you are no longer sure who you can trust because, from your perspective, it feels like everyone wants a piece of you.</p>
+                        <p>Despite being at the top, there are still parts of you that are unsettled. There are still inner challenges, traumas, and triggers.</p>
+                        <p>You tried to ignore them, bury them, or numb them. You may have overdone some of the good things in life. Like eating too much, drinking too much, shopping too much, sexing too much, etc..</p>
+                        <p>You may have tried the toxic positivity, to only look at the bright and shiny side. (Which didn't help in the long run!)
+                            But no matter how hard you try to ignore or hide this part of you, it's still there. And Nothing seems to solve this problem. </p>
+                        <p>Deep down you believe that no one can truly understand you - after all, your life has been quite unconventional.
+                            To top it off, the constant external pressure feels unbearable. People expect so much from you, and it feels like if you don't deliver, you'll lose everything. How can you remain at the top when these burdens you carry are getting heavier each day?</p>    
+                        <p>I see you.</p>
+                        <p>And I want to be there for you.</p>    
+                        <p class="mb-2 mt-2">
+                            <strong>You have a busy schedule and a demanding lifestyle, which takes a toll on your physical, emotional and mental health. On a daily basis, you may experience stress, anxiety, and exhaustion from working long hours, frequent travel, and intense scrutiny from the media and public. Holistic health & lifestyle coaching can provide you with personalized guidance, support and accountability to manage these challenges and achieve optimal health and wellness without sacrificing any areas of your life.</strong>
+                        </p>
+
+                    </div>
+                    <div class="col-md-12">
+                        <p class="mb-2 mt-2"></p>
+                        <h2>What You Can Expect:</h2>
+                        <ul>
+                            <li>Personalized program with one-on-one sessions tailored to your unique needs and goals</li>
+                            <li>Confidentiality and discretion</li>
+                            <li>A holistic approach that integrates mind, body, and spirit</li>
+                            <li>Support, guidance and accountability every step of the way</li>
+                            <li>Increased clarity, purpose, and overall well-being</li>
+                            <li>More self-awareness about your gifts and purpose</li>
+                            <li>Reconnecting with the essence of who you really are</li>
+                            <li>Feeling balanced and aligned, experience success in all areas of your life</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <p>Our services provide a safe, confidential and nurturing space that allows you to let go of any limitations holding you back, and empower you to achieve higher levels of success, no matter what that looks like for you.</p> 
+                        <p>Your privacy is top priority. We provide a discreet and secure environment for your journey. As someone who is constantly in the public eye and with a demanding schedule, it can be a challenge to make your own health and well-being a priority, but when you invest in yourself, the rewards are even greater - not just for you, but for everyone around you.</p>
+                        <p>Don't let the pressures of fame and a busy lifestyle hold you back from connecting with your true self and compromise your health and well-being any longer. </p>
+                        <hr class="mt-5 mb-5">
+
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <h2>INVESTMENT</h2>
+                        <p>3 - month commitment: $4,500 USD</p>
+                        <p>6 - month commitment: $9,000 USD</p>
+                        <p>12 - month commitment: $18,000 USD</p>
+
+                        <p>*If you are in Canada, please mention it for my rate in Canadian dollars.</p>
+
+                        <p>Connect with Joliane and start living your best life!</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="button btn col-md-6  ">
+                            <div class="button-text"><a style="color:#fff;text-decoration: none;" href="https://www.jolianetremblay.com/freecallwithjoliane.html">COMPLETE APPLICATION FORM</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <p class="mt-5 mb-5"></p>
+            <footer>
+                <div  class="container-fluid  p-5 section-8" style="background:#050854;">
+                    <div class="container mt-0">
+                        <div class="row justify-content-md-center text-center">
+                            <div class="mb-5">
+                                <img src="https://jolianetremblay.vercel.app/images/seal-icons/certified-advance-hypnotist.png" style="width:200px"/>
+                                <img src="https://jolianetremblay.vercel.app/images/seal-icons/certified-master-hypnotist.png" style="width:200px"/>
+                                <img src="https://jolianetremblay.vercel.app/images/seal-icons/certified-online-session.png" style="width:200px"/>
+                                <img src="https://jolianetremblay.vercel.app/images/seal-icons/hca-logo.png" style="width:120px"/>
+                                <img src="https://jolianetremblay.vercel.app/images/seal-icons/ngh-logo.png" style="width:120px"/>
+                            </div>
+                        </div>
+                        <div class="row mb-3" style="border-bottom:1px solid #fff;padding-bottom:20px">
+                           
+                                <div class="col-md-6 text-start" style="color:#fff;">
+                                    <svg width="154" height="34" viewBox="0 0 154 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g id="Logo_footer" clip-path="url(#clip0_59_592)">
+                                        <g id="Group">
+                                        <path id="Vector" d="M0.578137 33.9782C0.455852 34.1033 0.213393 33.646 0.335677 33.564C3.01117 32.1122 3.78282 29.1244 3.78282 24.81V3.90002C3.78072 1.5357 3.17351 1.03738 0.0911084 1.03738C-0.0290674 1.03738 -0.0290674 0.539062 0.0911084 0.539062C1.46997 0.539062 3.09129 0.664181 4.79483 0.664181C6.49837 0.664181 7.91729 0.539062 9.09375 0.539062C9.21603 0.539062 9.21603 1.03738 9.09375 1.03738C6.37609 1.03738 5.93123 1.61767 5.93123 3.98415V23.6904C5.93123 29.873 4.71471 32.1532 0.578137 33.9782Z" fill="#D5AD6B"/>
+                                        <path id="Vector_2" d="M12.8232 13.5254C12.8232 4.52111 20.5271 0.081543 27.0946 0.081543C35.0832 0.081543 39.9071 6.55321 39.9071 13.232C39.9071 20.9484 33.3796 26.9649 25.6757 26.9649C17.9718 26.9649 12.8232 20.8254 12.8232 13.5232V13.5254ZM37.3138 14.3969C37.3138 6.55537 32.6101 0.996206 25.3932 0.996206C19.1082 0.996206 15.4186 5.26967 15.4186 12.1145C15.4186 19.8719 20.1223 26.1365 27.1368 26.1365C32.8125 26.1365 37.3138 21.9882 37.3138 14.3947V14.3969Z" fill="#D5AD6B"/>
+                                        <path id="Vector_3" d="M49.1102 22.9418C49.1102 25.2652 49.6373 25.6793 52.5974 25.6793H57.7882C60.666 25.6793 62.0871 23.5631 62.5319 20.4092C62.5319 20.2431 62.9789 20.2841 62.9789 20.4502C62.8166 21.902 62.6142 24.1434 62.6142 25.8433C62.6142 26.3006 62.4919 26.4646 62.007 26.4646H43.3544C43.2321 26.4646 43.2321 25.9663 43.3544 25.9663C46.4368 25.9663 46.9639 25.5089 46.9639 23.1036V3.90002C46.9639 1.5357 46.4368 1.03738 43.3544 1.03738C43.2321 1.03738 43.2321 0.539062 43.3544 0.539062C44.651 0.539062 46.2745 0.664181 48.0181 0.664181C49.7617 0.664181 51.4652 0.539062 52.7218 0.539062C52.8441 0.539062 52.8441 1.03738 52.7218 1.03738C49.6394 1.03738 49.1123 1.57669 49.1123 3.941V22.9418H49.1102Z" fill="#D5AD6B"/>
+                                        <path id="Vector_4" d="M74.7753 25.9706C74.8976 25.9706 74.8976 26.4689 74.7753 26.4689C73.4787 26.4689 71.9375 26.3869 70.0315 26.3869C68.2479 26.3869 66.6266 26.4689 65.3278 26.4689C65.1655 26.4689 65.1655 25.9706 65.3278 25.9706C68.4102 25.9706 68.9774 25.5132 68.9774 23.1079V3.90002C68.9774 1.5357 68.4102 1.03738 65.3278 1.03738C65.1655 1.03738 65.1655 0.539062 65.3278 0.539062C66.6244 0.539062 68.2479 0.664181 70.0315 0.664181C71.9375 0.664181 73.5187 0.539062 74.7753 0.539062C74.8976 0.539062 74.8976 1.03738 74.7753 1.03738C71.6929 1.03738 71.1658 1.61767 71.1658 3.98415V23.1101C71.1658 25.5154 71.6529 25.9727 74.7753 25.9727V25.9706Z" fill="#D5AD6B"/>
+                                        <path id="Vector_5" d="M104.901 26.4691C103.4 26.4691 101.738 26.303 100.279 26.303C98.6159 26.303 97.5617 26.4691 96.1027 26.4691C95.8603 26.4691 95.8603 25.9708 96.1027 25.9708C99.143 25.9708 99.7923 25.3063 98.7782 22.983L93.9522 12.404H86.2083L82.5587 21.3651C81.1798 24.767 82.3162 25.9708 86.0059 25.9708C86.2483 25.9708 86.2483 26.4691 86.0059 26.4691C84.3845 26.4691 83.2882 26.303 81.222 26.303C79.3161 26.303 78.4643 26.4691 76.843 26.4691C76.6005 26.4691 76.6005 25.9708 76.843 25.9708C79.0314 25.9708 80.1678 24.9763 81.7892 20.9919L90.2626 0.125068C90.3427 -0.0410383 90.7096 -0.0410383 90.7496 0.125068L100.157 20.7848C102.023 24.9763 103.077 25.9708 104.901 25.9708C105.103 25.9708 105.103 26.4691 104.901 26.4691ZM93.6296 11.6166L89.8578 3.40189L86.5329 11.6166H93.6296Z" fill="#D5AD6B"/>
+                                        <path id="Vector_6" d="M133.404 1.03759C131.093 1.03759 130.241 2.07521 130.241 4.89686V26.9264C130.241 27.0515 129.876 27.0925 129.754 27.0106L111.426 3.94337C111.184 3.65214 110.939 3.36307 110.737 3.15598V22.1568C110.737 24.9785 111.548 25.9729 113.819 25.9729C113.981 25.9729 113.981 26.4713 113.819 26.4713C112.805 26.4713 111.711 26.3893 110.372 26.3893C109.033 26.3893 107.859 26.4713 106.805 26.4713C106.682 26.4713 106.682 25.9729 106.805 25.9729C109.155 25.9729 109.845 24.9785 109.845 22.1568V2.2823C108.751 1.32881 107.819 1.03759 106.925 1.03759C106.762 1.03759 106.762 0.539267 106.925 0.539267C107.817 0.539267 108.871 0.621241 109.642 0.621241C110.414 0.621241 111.144 0.539267 111.466 0.539267C112.156 0.539267 112.073 1.11956 113.332 2.69649L129.347 23.0672V4.8947C129.347 2.07305 128.618 1.03543 126.347 1.03543C126.225 1.03543 126.225 0.537109 126.347 0.537109C127.401 0.537109 128.495 0.662228 129.834 0.662228C131.091 0.662228 132.389 0.537109 133.401 0.537109C133.564 0.537109 133.564 1.03543 133.401 1.03543L133.404 1.03759Z" fill="#D5AD6B"/>
+                                        <path id="Vector_7" d="M154 20.4524C153.797 21.9042 153.635 24.1456 153.635 25.8455C153.635 26.3028 153.473 26.4667 152.986 26.4667H136.239C136.117 26.4667 136.117 25.9684 136.239 25.9684C139.322 25.9684 139.849 25.5111 139.849 23.1058V3.90002C139.849 1.5357 139.322 1.03738 136.239 1.03738C136.117 1.03738 136.117 0.539062 136.239 0.539062H152.296C152.581 0.539062 152.661 0.664181 152.661 0.912262L152.741 5.93212C152.741 6.09823 152.294 6.09823 152.294 5.93212C152.294 3.06949 150.673 1.32645 148.32 1.32645H145.522C142.522 1.32645 141.995 1.78378 141.995 4.1481V12.5699H147.348C149.821 12.5699 150.673 11.8235 150.673 9.70726C150.673 9.58214 151.16 9.58214 151.16 9.70726C151.16 11.3252 151.12 11.9896 151.12 12.9841C151.12 14.2288 151.2 15.3484 151.2 16.7182C151.2 16.8434 150.713 16.8434 150.713 16.7182C150.713 14.2288 149.821 13.3573 147.226 13.3573H141.995V22.9397C141.995 25.263 142.522 25.6772 145.522 25.6772H149.252C151.4 25.6772 153.104 23.561 153.509 20.4071C153.509 20.241 153.996 20.282 153.996 20.4481L154 20.4524Z" fill="#D5AD6B"/>
+                                        </g>
+                                        <path id="Vector_8" fill-rule="evenodd" clip-rule="evenodd" d="M26.7335 7.26562L26.8431 9.06691C26.997 11.5693 28.9683 13.5647 31.4414 13.72L33.2209 13.8322L31.4414 13.9444C28.9683 14.0997 26.997 16.0951 26.8431 18.5975L26.7335 20.3988L26.6238 18.5975C26.4699 16.0951 24.4986 14.0997 22.0255 13.9444L20.2461 13.8322L22.0255 13.72C24.4986 13.5647 26.4699 11.5693 26.6238 9.06691L26.7335 7.26562Z" fill="#D5AD6B"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_59_592">
+                                        <rect width="154" height="34" fill="white"/>
+                                        </clipPath>
+                                        </defs>
+                                        </svg>
+                                        
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row justify-content-end">
+                                        <div class="col col-lg-1" style="color:#fff;">
+                                            <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path id="Vector" d="M2.80805 22V11.677H0V7.96017H2.80805V4.78555C2.80805 2.2909 4.46677 0 8.28882 0C9.83631 0 10.9806 0.14421 10.9806 0.14421L10.8904 3.61506C10.8904 3.61506 9.72344 3.60402 8.44996 3.60402C7.07167 3.60402 6.85085 4.22145 6.85085 5.24623V7.96017H11L10.8195 11.677H6.85085V22H2.80805Z" fill="#D5AD6B"/>
+                                            </svg>  
+                                        </div>
+                                        <div class="col col-lg-1" style="color:#fff;">
+                                            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path id="Vector" d="M3.98741 2.00089C3.98714 2.53129 3.77684 3.03987 3.40276 3.41473C3.02868 3.7896 2.52147 4.00004 1.99271 3.99978C1.46394 3.99951 0.956943 3.78856 0.583238 3.41332C0.209533 3.03808 -0.000264132 2.52929 2.49573e-07 1.99889C0.000264631 1.46849 0.210569 0.959911 0.584648 0.585047C0.958727 0.210183 1.46594 -0.000264951 1.9947 2.50348e-07C2.52346 0.000265452 3.03047 0.211222 3.40417 0.586461C3.77788 0.961701 3.98767 1.47049 3.98741 2.00089ZM4.04722 5.4807H0.0598113V18H4.04722V5.4807ZM10.3473 5.4807H6.37985V18H10.3075V11.4304C10.3075 7.77057 15.0624 7.43059 15.0624 11.4304V18H19V10.0704C19 3.90078 11.9622 4.13077 10.3075 7.1606L10.3473 5.4807Z" fill="#D5AD6B"/>
+                                            </svg>
+                                                     
+                                        </div>
+                                        <div class="col col-lg-1" style="color:#fff;">
+                                            <!-- <svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g id="Group">
+                                                <path id="Vector" d="M22.142 2.13513C21.3277 2.49594 20.453 2.73973 19.5334 2.84992C20.4822 2.28218 21.1921 1.38861 21.5305 0.33596C20.6391 0.865461 19.6634 1.23817 18.646 1.43789C17.9618 0.707364 17.0556 0.22316 16.068 0.0604525C15.0804 -0.102255 14.0668 0.0656378 13.1844 0.538065C12.302 1.01049 11.6003 1.76102 11.1882 2.67313C10.776 3.58523 10.6766 4.60789 10.9052 5.58232C9.0989 5.49162 7.33186 5.02214 5.71875 4.20432C4.10563 3.38651 2.68251 2.23865 1.54173 0.835242C1.15166 1.5081 0.927376 2.28823 0.927376 3.11906C0.926941 3.86701 1.11113 4.60349 1.4636 5.26318C1.81606 5.92286 2.32591 6.48535 2.94791 6.90073C2.22656 6.87778 1.52112 6.68287 0.89032 6.33221V6.39072C0.890247 7.43974 1.25311 8.45648 1.91734 9.26841C2.58157 10.0803 3.50625 10.6375 4.53449 10.8453C3.86532 11.0264 3.16375 11.053 2.48275 10.9233C2.77286 11.8259 3.33797 12.6152 4.09895 13.1807C4.85994 13.7462 5.77871 14.0595 6.72665 14.0769C5.11747 15.3402 3.13015 16.0254 1.08438 16.0224C0.721989 16.0225 0.359908 16.0013 0 15.959C2.07658 17.2941 4.49386 18.0027 6.96264 18C15.3197 18 19.8884 11.0783 19.8884 5.07523C19.8884 4.8802 19.8835 4.68322 19.8747 4.48819C20.7634 3.84553 21.5304 3.04973 22.14 2.13805L22.142 2.13513Z" fill="#D5AD6B"/>
+                                                </g>
+                                           </svg> -->
+                                                
+                                                
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 text-start" style="color:#fff;">
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p> -->
+                                <!-- For more settings use the AutoHTML plugin tab ... --> 
+                                <div class="_2023-all-rights-reserved" > <p>© 2023 All Rights Reserved</p> </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row justify-content-end">
+                                    <div class="col col-lg-6" style="color:#fff;"><a style="color:#fff;text-decoration: none" href="/privacy-policy-terms.html">Privacy, Terms and Conditions</a></div>
+                                    <div class="col col-lg-2" ><a style="color:#fff;text-decoration: none" href="/credentials.html">Credentials</a></div>
+                                </div>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+  <!-- <div style='display:none'>{title}</div>
+<div style='display:none'>{menu}</div>
+<div style='display:none'>{content}</div>
+<div style='padding: 20px; width:100%; text-align:center;'>{footer}</div> -->
+</body>
+</html>
