@@ -194,7 +194,7 @@
          
                 <div class="container">
                       <div class="row justify-content-md-center mt-5">
-                        <div class="col-md-auto mt-5">
+                        <div class="col-lg-auto mt-5">
                                 <h3>Lorem Ipsum</h3>
                                 <h2>Lorem ipsum dolor</h2>
                         </div>
@@ -258,12 +258,12 @@
             </section>
             <section class="container-fluid joliane-experienced" style=" background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianetremblay.vercel.app/images/section3/section3-background.png')">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <img class="joliane-experience-img" src="https://jolianetremblay.vercel.app/images/section3/background-joliane-experience.png" />
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-lg-8">
                         <div class="row mt-5 text-start">
-                            <div class="col-md-auto mt-5">
+                            <div class="col-lg-auto mt-5">
                                     <h3>Lorem Ipsum</h3>
                                     <h2>Lorem ipsum dolor</h2>
                             </div>
@@ -274,17 +274,17 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-lg-4">
                                 <h1 class="title custom-font-cormorant">50+</h1>
                                 <span class="sub-heading custom-font-brandon-black">Lorem ipsum dolor</span>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-lg-4">
                                 <h1 class="title custom-font-cormorant">10+</h1>
                                 <span class="sub-heading custom-font-brandon-black">Lorem ipsum dolor</span>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-lg-4">
                                 <h1 class="title custom-font-cormorant">257</h1>
                                 <span class="sub-heading custom-font-brandon-black">Lorem ipsum dolor</span>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
@@ -296,9 +296,9 @@
             <section class="container-fluid" style=" background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianetremblay.vercel.app/images/section4/section4-background.png')">
                 <div class="container">
                     <div class="row mt-5">
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <div class="row mt-5 text-start">
-                                <div class="col-md-auto mt-5">
+                                <div class="col-lg-auto mt-5">
                                         <h3>Lorem Ipsum</h3>
                                         <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
                                 </div>
@@ -320,10 +320,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <img src="https://jolianetremblay.vercel.app/images/section4/joliane-center.png" style="width:370px;"/>
                         </div>
-                        <div class="col-md-4 mt-5">
+                        <div class="col-lg-4 mt-5">
                             <div class="row mt-5">
                                 <div class="col">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -346,7 +346,7 @@
             <section class="container-fluid section-5" style=" background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianetremblay.vercel.app/images/section5/section5-background.png')">
                 <div class="container">
                     <div class="row mt-5 text-start">
-                        <div class="col-md-8 mt-5">
+                        <div class="col-lg-8 mt-5">
                             <div class="">
                                 <h3>Lorem Ipsum</h3>
                                 <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
@@ -356,7 +356,7 @@
                             </div>
                             
                         </div>
-                        <div class="col-md-4 mt-5">
+                        <div class="col-lg-4 mt-5">
                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                            <div class="mb-5 mt-5">
@@ -371,7 +371,7 @@
             <section class="container-fluid  section-6" style="margin-top:100px; background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianetremblay.vercel.app/images/section6/section6-background.png')">
                 <div class="container mt-5">
                     <div class="row justify-content-md-center mt-5">
-                      <div class="col-md-auto mt-5 text-center mt-5">
+                      <div class="col-lg-auto mt-5 text-center mt-5">
                               <h3>Lorem Ipsum</h3>
                               <h2>Lorem ipsum dolor</h2>
                       </div>
@@ -449,7 +449,7 @@
             <section class="container-fluid  section-7" style="margin-top:100px; background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianetremblay.vercel.app/images/section7/section7-background.png')">
                 <div class="container mt-5">
                     <div class="row justify-content-md-center mt-5">
-                      <div class="col-md-auto mt-5 text-center mt-5">
+                      <div class="col-lg-auto mt-5 text-center mt-5">
                               <h3>Lorem Ipsum</h3>
                               <h2>Lorem ipsum dolor</h2>
                       </div>
@@ -470,7 +470,7 @@
                         <div class="col-lg-4 p-2">
                             <img src="https://jolianetremblay.vercel.app/images/section7/testimonial3.png" width="100%"/>
                         </div>
-                      <!-- <div class="col-md-12">
+                      <!-- <div class="col-lg-12">
                         <img src="C:\laragon\www\joliane\images\section7\testimonial.png" width="100%"/>
                       </div> -->
                     </div>
@@ -485,7 +485,7 @@
             <section class="container-fluid  section-7" style="background-repeat: no-repeat;background-size: cover;background-image: url('https://jolianetremblay.vercel.app/images/section8/section8-background.png')">
                 <div class="container">
                     <div class="row justify-content-md-start mt-5">
-                      <div class="col-md-4 text-start mt-5 p-5" style="background: #142050;color: #fff;">
+                      <div class="col-lg-4 text-start mt-5 p-5" style="background: #142050;color: #fff;">
                               <h3>Lorem Ipsum</h3>
                               <h2 style="color:#fff;">Lorem ipsum dolor</h2>
                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -514,7 +514,7 @@
                               </div>
                       
                       </div>
-                      <div class="col-md-6 text-start mt-5 ">
+                      <div class="col-lg-6 text-start mt-5 ">
                         <div class="mt-2 p-2"><h3>Lorem Ipsum</h3>
                             <h2>Lorem ipsum dolor</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -535,7 +535,7 @@
                     <div class="container mt-5">
                         <div class="row mb-3" style="border-bottom:1px solid #fff;padding-bottom:20px">
                            
-                                <div class="col-md-6 text-start" style="color:#fff;">
+                                <div class="col-lg-6 text-start" style="color:#fff;">
                                     <svg width="154" height="34" viewBox="0 0 154 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="Logo_footer" clip-path="url(#clip0_59_592)">
                                         <g id="Group">
@@ -557,7 +557,7 @@
                                         </svg>
                                         
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-lg-6">
                                     <div class="row justify-content-end">
                                         <div class="col col-lg-1" style="color:#fff;">
                                             <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -584,12 +584,12 @@
                         
                         </div>
                         <div class="row">
-                            <div class="col-md-6 text-start" style="color:#fff;">
+                            <div class="col-lg-6 text-start" style="color:#fff;">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                                 <!-- For more settings use the AutoHTML plugin tab ... --> 
                                 <div class="_2023-all-rights-reserved" > <p>© 2023 All Rights Reserved</p> </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg-6">
                                 <div class="row justify-content-end">
                                     <div class="col col-lg-2" style="color:#fff;">
                                         Privacy                     

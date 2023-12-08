@@ -189,12 +189,134 @@
         .nav-pills .nav-link{
             color:#000000a6;
         }
+        
+        /* Navigational Menu */
+        .nav {
+        height: 50px;
+        width: 100%;
+        background-color: #fff;
+        position: relative;
+        font-family: 'brandon_grotesquelight'!important;
+        font-weight:bold;
+
+        }
+
+        .nav > .nav-header {
+        display: inline;
+        }
+
+        .nav > .nav-header > .nav-title {
+        display: inline-block;
+        font-size: 22px;
+        color: #fff;
+        padding: 10px 10px 10px 10px;
+        }
+
+        .nav > .nav-btn {
+        display: none;
+        }
+
+        .nav > .nav-links {
+        display: inline;
+        float: right;
+        font-size: 18px;
+        }
+
+        .nav > .nav-links > a {
+        display: inline-block;
+        padding: 13px 10px 13px 10px;
+        text-decoration: none;
+        color: #000000a6;
+        }
+
+        .nav > .nav-links > a:hover {
+        /* background-color: rgba(0, 0, 0, 0.3); */
+        }
+
+        .nav > #nav-check {
+        display: none;
+        }
+
+        @media (max-width:600px) {
+            .nav > .nav-btn {
+                display: inline-block;
+                position: absolute;
+                right: 0px;
+                top: 0px;
+            }
+            .nav > .nav-btn > label {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                padding: 13px;
+            }
+            .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+                background-color: #ffffff;
+            }
+            .nav > .nav-btn > label > span {
+                display: block;
+                width: 25px;
+                height: 10px;
+                border-top: 2px solid #142050;
+            }
+            .nav > .nav-links {
+                position: absolute;
+                display: block;
+                width: 100%;
+                background-color: #fff;
+                height: 0px;
+                transition: all 0.3s ease-in;
+                overflow-y: hidden;
+                top: 50px;
+                left: 0px;
+            }
+            .nav > .nav-links > a {
+                display: block;
+                width: 100%;
+            }
+            .nav > #nav-check:not(:checked) ~ .nav-links {
+                height: 0px;
+            }
+            .nav > #nav-check:checked ~ .nav-links {
+                height: calc(100vh - 50px);
+                overflow-y: auto;
+            }
+        }
+        /* End Navigational Menu */
     </style>
 </head>
   <body>
 
  
-   <header class="d-flex flex-wrap justify-content-center py-3 mb-4"  style="position: fixed;z-index: 9999;background: #fff;width: 100%;">
+   <!-- <header class="d-flex flex-wrap justify-content-center py-3 mb-4"  style="position: fixed;z-index: 9999;background: #fff;width: 100%;">
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                <span class="fs-4"><img src="https://jolianetremblay.vercel.app/images/logo.png" style="width:220px"></span>
+              </a>
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links justify-content-center col-md-8">
+          <a href="https://www.jolianetremblay.com">Home</a>
+          <a href="/testimonials.html" >Testimonials</a>
+          <a href="/media.html">Media</a>
+          <a href="#contactme">Contact Me</a>
+        </div>
+      </div>
+      
+  </header> -->
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4"  style="position: fixed;z-index: 9999;background: #fff;width: 100%;">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
       <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
       <span class="fs-4"><img src="https://jolianetremblay.vercel.app/images/logo.png" style="width:220px"></span>
@@ -210,28 +332,30 @@
   </header>
     <main role="main" class="container-fluid">
             <section class="container-fluid media justify-content-center text-center header-title" style="background-image: url(https://jolianetremblay.vercel.app/images/media/weight-release-personal-background.png);background-position:center;background-size: cover;">
-                <div class="row">
-                    <div class="col-lg-4 mt-5">
-                            <div class=""></div>
-                            <img src="https://jolianetremblay.vercel.app/images/media/weight-release-personal.png" style="width:100%;" class="mt-5"/>
-                    </div>
-                    <div class="col-lg-8">
-                        <div class="section-1-right-content">
-                            <div>
-                                <div class="justify-content-center">
-                                    <div style="color: #D5AD6B; font-size: 3.5em; font-family: Cormorant; font-style: italic; font-weight: 300; line-height: 40px; word-wrap: break-word" class="holistic-title">WEIGHT RELEASE</div>
-                                    <div class="website-name" style="color: #050854; font-size: 45px; font-family: Cormorant; font-weight: 300; word-wrap: break-word">An experience beyond your physical form</div>
-                                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 mt-5">
+                                <div class=""></div>
+                                <img src="https://jolianetremblay.vercel.app/images/media/weight-release-personal.png" style="width:100%;" class="mt-5"/>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="section-1-right-content">
                                 <div>
-                                </div>
-                            </div> 
-                         </div>
+                                    <div class="justify-content-center">
+                                        <div style="color: #D5AD6B; font-size: 3.5em; font-family: Cormorant; font-style: italic; font-weight: 300; line-height: 40px; word-wrap: break-word" class="holistic-title">WEIGHT RELEASE</div>
+                                        <div class="website-name" style="color: #050854; font-size: 45px; font-family: Cormorant; font-weight: 300; word-wrap: break-word">An experience beyond your physical form</div>
+                                    </div>
+                                    <div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
                     </div>
                 </div>
-        
             </section>
             <section class="container-fluid mt-5">
-                <div class="row">
+                <div class="container">
+                    <div class="row">
                     <div class="col-md-12">
                         <p>You feel helpless, as if you've lost control. You've been successful in other areas of your life, but this one doesn't make any sense. It's disempowering and demoralizing. I'm talking about weight issues. Many women struggle with their weight and as a result, their health - both physical and mental - suffers.</p>
                         <p>The endless parade of diets and pills and "solutions" (most of which contradict each other) don't help at all. The reason they don't help is because they aren't addressing the real source of the problem - what's in your mind.</p>
@@ -307,8 +431,10 @@
 
                         <hr class="mt-5 mb-5">
                     </div>
-                </section>
-                <section>
+                </div>
+            </section>
+            <section>
+                <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-10 ">
                             <h3 class="text-center">Testimonials</h3>
@@ -337,6 +463,7 @@
     <p><strong>-Sandy Reel</strong></p>
     
     <p>See how Sandy is doing now...</p>
+    <img src="https://jolianetremblay.vercel.app/images/media/sandy-reel.png" alt="Sandy Reel">
     <div class="col-md-6">
         <iframe width="100%" height="320" src="https://www.youtube.com/embed/ytsYAw0UYDs?si=IT94pKqj0kvy-6FQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
@@ -384,9 +511,11 @@
 </div>
                         </div>
                     </div>
-                </section>
+                </div>
+            </section>
                 <hr class="mt-5 mb-5">
-                <section>
+            <section>
+                <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center">
                         
@@ -423,6 +552,7 @@
                             
                         </div>
                     </div>
+                </div>
                 </section>
             <p class="mt-5 mb-5"></p>
             <footer>
